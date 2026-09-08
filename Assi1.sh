@@ -5,7 +5,7 @@ read -p "Enter The Number = " number
 if [ $number -gt 0 ];
 then
 	echo "$number Is Positive"
-elif [$number -lt 0 ];
+elif [ $number -lt 0 ];
 then
 	echo "$number Is Negative"
 else

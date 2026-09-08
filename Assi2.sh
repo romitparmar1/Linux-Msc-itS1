@@ -5,7 +5,7 @@ read -p "Enter The Number = " number2
 read -p "Enter The Number = " number3
 
 if [ $number1 -gt $number2 ] && [ $number1 -gt $number3 ]; then
-	echo "number1 is Largest among three"
+	echo "$number1 is Largest among three"
 elif [ $number2 -gt $number1 ] && [ $number2 -gt $number3 ]; then
 	echo "$number2 is largest among three"
 else
